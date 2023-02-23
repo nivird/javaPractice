@@ -1,0 +1,34 @@
+package learn23;
+
+public class ExcepDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try
+		{
+			System.out.println("hello Exception");
+			try
+			{
+				System.out.println("I'm inside Try");
+			}
+			catch(Exception e)
+			{
+				System.out.println("error in");
+			}
+			finally
+			{
+				System.out.println("I'm in Finaly");
+			}
+		}
+		catch(Exception e)
+		{
+			System.out.println("error");
+		}
+		finally
+		{
+			System.out.println("i'm Finally");
+		}
+
+	}
+
+}
